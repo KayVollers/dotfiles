@@ -25,8 +25,8 @@
     ~/.bin/docker-i: docker/docker-i
     ~/.bin/docker-loglast: docker/docker-loglast
     ~/.bin/docker-psa: docker/docker-psa
+    ~/.bin/docker-rma: docker/docker-rma
     ~/.bin/docker-rmf: docker/docker-rmf
-    ~/.bin/docker-searcheccenca: docker/docker-searcheccenca
 
 - shell:
   # homebrew

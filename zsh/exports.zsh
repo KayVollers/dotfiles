@@ -1,3 +1,6 @@
+# set default editor
+export EDITOR=subl
+
 # unixorn/autoupdate-zgen - auto update every 30 days
 export ZGEN_PLUGIN_UPDATE_DAYS=30
 export ZGEN_SYSTEM_UPDATE_DAYS=30

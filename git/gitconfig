@@ -38,10 +38,11 @@
   pager      = less -FRSX
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
   editor = "subl -w"
-  excludesfile = /Users/Marvin/.gitignore_global
+	excludesfile = /Users/Marvin/.gitignore_global
 
 [user]
-  name = Marvin Frommhold
+	name = Marvin Frommhold
+	email =
 
 # git flow default configuration
 [gitflow "branch"]
@@ -55,12 +56,31 @@
   support    = support/
   versiontag = v
 
+[diff]
+	tool = p4mergetool
+
+[push]
+  default = simple
+
+[lfs]
+  url = https://artifactory.eccenca.com/api/lfs/download-eccenca-com
+
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
-
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[push]
-  default = simple
+[merge]
+	tool = p4mergetool
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+	trustExitCode = false
+[mergetool]
+	keepBackup = false
+[difftool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE

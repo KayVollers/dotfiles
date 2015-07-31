@@ -72,9 +72,10 @@ S.bnda({
   "up:ctrl,alt" : maximize,
   "z:ctrl,alt" : S.op("undo"),
   "c:ctrl,alt" : S.op("focus", {app : "Google Chrome"}),
-  "c:ctrl,alt,shift" : chrome720p,
-  "t:ctrl,alt" : S.op("focus", {app : "iTerm"}),
-  "s:ctrl,alt" : S.op("focus", {app : "Spotify"}),
+  "s:ctrl,alt" : S.op("focus", {app : "Sublime Text"}),
+  "t:ctrl,alt" : S.op("focus", {app : "iTerm2"}),
   "e:ctrl,alt" : S.op("focus", {app : "Spring Tool Suite"}),
+  "i:ctrl,alt" : S.op("focus", {app : "IntelliJ IDEA"}),
+  "c:ctrl,alt,shift" : chrome720p,
   "m:ctrl,alt,shift" : S.op("layout", { "name" : markdownEditLayout })
 });

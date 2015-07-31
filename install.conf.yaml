@@ -27,6 +27,8 @@
     ~/.bin/docker-psa: docker/docker-psa
     ~/.bin/docker-rma: docker/docker-rma
     ~/.bin/docker-rmf: docker/docker-rmf
+    # gradle
+    ~/.gradle/gradle.properties: gradle/gradle.properties
 
 - shell:
   # homebrew

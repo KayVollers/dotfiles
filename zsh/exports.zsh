@@ -6,9 +6,13 @@ export ZGEN_PLUGIN_UPDATE_DAYS=30
 export ZGEN_SYSTEM_UPDATE_DAYS=30
 
 # Path expansion
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH # use GNU coreutils instead of OSX ones
 export PATH=$HOME/.bin:$PATH # add user binaries to path
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin # fix latex for El Capitan
+
+# man pages
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH # man pages for GNU coreutils
 
 # export docker host address
 export DOCKER_HOST=tcp://192.168.59.103:2376

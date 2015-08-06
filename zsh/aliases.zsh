@@ -18,6 +18,7 @@ alias js=' a -e subl'
 alias g='git'
 alias o='open'
 alias s='subl && subl' # fix empty window if sublime was not running before opening file
+alias t='tree'
 alias v='vim'
 alias d='docker'
 alias rdf='rdf'

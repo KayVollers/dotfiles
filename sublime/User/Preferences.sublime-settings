@@ -4,12 +4,21 @@
 		"Backend",
 		"Ubuntu",
 		"webapp",
-		"servlet"
+		"servlet",
+		"versioning",
+		"eccenca",
+		"hline",
+		"Frommhold",
+		"aksw",
+		"plugin",
+		"plugins",
+		"subprojects",
+		"Gradle"
 	],
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"create_window_at_startup": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
@@ -30,9 +39,9 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"Vintageous",
 		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintageous"
 	],
 	"indent_guide_options":
 	[

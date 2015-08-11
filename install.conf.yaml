@@ -61,6 +61,8 @@
   - [brew install ncdu, Installing ncdu]
   # tree
   - [brew install tree, Installing tree]
+  # bro pages
+  - [gem install bropages, Installing bro pages]
   # rdf.sh
   - ["brew install https://raw.githubusercontent.com/seebi/rdf.sh/master/brew/rdf.sh.rb", Installing rdf.sh]
   - [pip install Pygments, Installing Pygments]

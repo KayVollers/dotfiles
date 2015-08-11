@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>F9, F10, F11 and F12 to Music Controls</name>
+    <appendix>F9 to Music Prev</appendix>
+    <appendix>F10 and F11 to Play/Pause</appendix>
+    <appendix>F12 to Music Next</appendix>
+    <identifier>private.f_keys_to_music_controls</identifier>
+    <autogen>__KeyToKey__ KeyCode::F9, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__KeyToKey__ KeyCode::F10, ConsumerKeyCode::MUSIC_PLAY</autogen>
+    <autogen>__KeyToKey__ KeyCode::F11, ConsumerKeyCode::MUSIC_PLAY</autogen>
+    <autogen>__KeyToKey__ KeyCode::F12, ConsumerKeyCode::MUSIC_NEXT</autogen>
+  </item>
+  <item>
+        <name>Use Command+Option+R to Rename</name>
+        <appendix>(Change Command+Option+R to Return)</appendix>
+        <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
+        <only>FINDER</only>
+         <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
+      </item>
+</root>

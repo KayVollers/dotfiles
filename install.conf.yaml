@@ -29,6 +29,8 @@
     ~/.bin/docker-rmf: docker/docker-rmf
     # gradle
     ~/.gradle/gradle.properties: gradle/gradle.properties
+    # karabiner
+    ~/Library/Application Support/Karabiner/private.xml: karabiner/private.xml
 
 - shell:
   # homebrew

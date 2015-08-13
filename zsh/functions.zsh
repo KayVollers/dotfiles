@@ -34,7 +34,7 @@ function rdf() {
 
   if [[ "$1" = "ns" ]] # extend ns parameter to copy namespace to clipboard too
   then
-    namespace=$(/usr/local/bin/rdf ns $2)
+    namespace=$(/usr/local/bin/rdf ns $@)
     echo "$namespace"
     echo "$namespace" | perl -ne 'chomp and print' | pbcopy
   elif [[ "$1" = "desc" ]]

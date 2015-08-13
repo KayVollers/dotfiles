@@ -4,6 +4,11 @@ Personal dotfiles bootstraped using [dotbot](https://github.com/anishathalye/dot
 
 Currently only compatible with OS X.
 
+## Prerequisites
+
+* [Sublime Text 3](http://www.sublimetext.com/3)
+* [Karabiner](https://pqrs.org/osx/karabiner/)
+
 ## Installation
 
     git clone --recursive https://github.com/depressiveRobot/dotfiles.git ~/.dotfiles

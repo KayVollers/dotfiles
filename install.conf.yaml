@@ -4,6 +4,7 @@
   # creating directories
   - [mkdir -p ~/.config, Creating .config directory]
   - [mkdir -p ~/.bin, Creating .bin directory]
+  - [mkdir -p ~/.gradle, Creating .gradle directory]
   # homebrew
   - description: "Installing Homebrew"
     command: 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'

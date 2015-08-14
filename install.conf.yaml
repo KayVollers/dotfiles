@@ -8,6 +8,8 @@
   # keyboard layout
   - [cp keylayout/U.S.\ International\ wo\ dead\ keys.icns ~/Library/Keyboard\ Layouts/, Installing US International keyboard layout]
   - [cp keylayout/U.S.\ International\ wo\ dead\ keys.keylayout ~/Library/Keyboard\ Layouts/]
+  # fonts
+  - [cp fonts/* ~/Library/Fonts, Installing fonts]
   # homebrew
   - description: "Installing Homebrew"
     command: 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'

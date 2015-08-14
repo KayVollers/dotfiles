@@ -84,3 +84,5 @@
 	keepBackup = false
 [difftool "p4mergetool"]
 	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+[rerere]
+	enabled = true

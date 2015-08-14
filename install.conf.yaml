@@ -93,3 +93,5 @@
   ~/.gradle/gradle.properties: gradle/gradle.properties
   # karabiner
   ~/Library/Application Support/Karabiner/private.xml: karabiner/private.xml
+  # p4merge
+  ~/.bin/p4merge: p4merge/p4merge.sh

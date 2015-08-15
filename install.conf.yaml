@@ -63,6 +63,8 @@
   - description: "Decrypt secrets"
     command: "sh ssh/decrypt_secrets.sh"
     stdin: true
+    # karabiner settings
+    - [sh karabiner/karabiner-settings.sh, Restoring Karabiner settings]
 
 - link:
   # zsh

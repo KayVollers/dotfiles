@@ -9,6 +9,7 @@
   cob = checkout -b
   ci = commit
   clean = clean -f -d
+  clone = clone --recursive
   d = diff
   dc = svn dcommit
   desc = describe

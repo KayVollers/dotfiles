@@ -1,21 +1,30 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>F9, F10, F11 and F12 to Music Controls</name>
-    <appendix>F9 to Music Prev</appendix>
-    <appendix>F10 and F11 to Play/Pause</appendix>
-    <appendix>F12 to Music Next</appendix>
+    <name>F5, F6 and F7 to Music Controls</name>
+    <appendix>F5 to Music Prev</appendix>
+    <appendix>F6 to Play/Pause</appendix>
+    <appendix>F7 to Music Next</appendix>
     <identifier>private.f_keys_to_music_controls</identifier>
-    <autogen>__KeyToKey__ KeyCode::F9, ConsumerKeyCode::MUSIC_PREV</autogen>
-    <autogen>__KeyToKey__ KeyCode::F10, ConsumerKeyCode::MUSIC_PLAY</autogen>
-    <autogen>__KeyToKey__ KeyCode::F11, ConsumerKeyCode::MUSIC_PLAY</autogen>
-    <autogen>__KeyToKey__ KeyCode::F12, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    <autogen>__KeyToKey__ KeyCode::F5, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__KeyToKey__ KeyCode::F6, ConsumerKeyCode::MUSIC_PLAY</autogen>
+    <autogen>__KeyToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_NEXT</autogen>
   </item>
   <item>
-        <name>Use Command+Option+R to Rename</name>
-        <appendix>(Change Command+Option+R to Return)</appendix>
-        <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
-        <only>FINDER</only>
-         <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
-      </item>
+    <name>F1, F2 and F3 to Volume Controls</name>
+    <appendix>F1 to Mute</appendix>
+    <appendix>F2 to Volume Down</appendix>
+    <appendix>F3 to Volume Up</appendix>
+    <identifier>private.f_keys_to_volume_controls</identifier>
+    <autogen>__KeyToKey__ KeyCode::F1, ConsumerKeyCode::VOLUME_MUTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::F2, ConsumerKeyCode::VOLUME_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::F3, ConsumerKeyCode::VOLUME_UP</autogen>
+  </item>
+  <item>
+    <name>Use Command+Option+R to Rename</name>
+    <appendix>(Change Command+Option+R to Return)</appendix>
+    <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
+    <only>FINDER</only>
+    <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
+  </item>
 </root>

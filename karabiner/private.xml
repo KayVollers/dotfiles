@@ -27,4 +27,14 @@
     <only>FINDER</only>
     <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
   </item>
+  <item>
+    <!-- https://github.com/pauloconnor/das_keyboard -->
+    <name>Fix Media Keys for Das Keyboard 4</name>
+    <appendix>Let the media keys of Das Keyboard 4 work with Spotify and Co.</appendix>
+    <appendix>(Fn+F5 to Music Prev)</appendix>
+    <appendix>(Fn+F7 to Music Next)</appendix>
+    <identifier>dk4_media</identifier>
+    <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0012, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0011, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_NEXT</autogen>
+  </item>
 </root>

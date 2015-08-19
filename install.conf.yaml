@@ -69,6 +69,10 @@
       stdin: true
     # karabiner settings
     - [sh karabiner/karabiner-settings.sh, Restoring Karabiner settings]
+    # osx hacks
+    - description: "OS X hacks"
+      command: "sh osx/hacks.sh"
+      stdin: true
 
 - link:
     # zsh

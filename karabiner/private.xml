@@ -1,40 +1,46 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>F5, F6 and F7 to Music Controls</name>
-    <appendix>F5 to Music Prev</appendix>
-    <appendix>F6 to Play/Pause</appendix>
-    <appendix>F7 to Music Next</appendix>
-    <identifier>private.f_keys_to_music_controls</identifier>
-    <autogen>__KeyToKey__ KeyCode::F5, ConsumerKeyCode::MUSIC_PREV</autogen>
-    <autogen>__KeyToKey__ KeyCode::F6, ConsumerKeyCode::MUSIC_PLAY</autogen>
-    <autogen>__KeyToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    <name>Miscellaneous</name>
+    <item>
+      <name>F5, F6 and F7 to Music Controls</name>
+      <appendix>F5 to Music Prev</appendix>
+      <appendix>F6 to Play/Pause</appendix>
+      <appendix>F7 to Music Next</appendix>
+      <identifier>private.f_keys_to_music_controls</identifier>
+      <autogen>__KeyToKey__ KeyCode::F5, ConsumerKeyCode::MUSIC_PREV</autogen>
+      <autogen>__KeyToKey__ KeyCode::F6, ConsumerKeyCode::MUSIC_PLAY</autogen>
+      <autogen>__KeyToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    </item>
+    <item>
+      <name>F1, F2 and F3 to Volume Controls</name>
+      <appendix>F1 to Mute</appendix>
+      <appendix>F2 to Volume Down</appendix>
+      <appendix>F3 to Volume Up</appendix>
+      <identifier>private.f_keys_to_volume_controls</identifier>
+      <autogen>__KeyToKey__ KeyCode::F1, ConsumerKeyCode::VOLUME_MUTE</autogen>
+      <autogen>__KeyToKey__ KeyCode::F2, ConsumerKeyCode::VOLUME_DOWN</autogen>
+      <autogen>__KeyToKey__ KeyCode::F3, ConsumerKeyCode::VOLUME_UP</autogen>
+    </item>
+    <item>
+      <name>Use Command+Option+R to Rename</name>
+      <appendix>(Change Command+Option+R to Return)</appendix>
+      <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
+      <only>FINDER</only>
+      <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
+    </item>
   </item>
   <item>
-    <name>F1, F2 and F3 to Volume Controls</name>
-    <appendix>F1 to Mute</appendix>
-    <appendix>F2 to Volume Down</appendix>
-    <appendix>F3 to Volume Up</appendix>
-    <identifier>private.f_keys_to_volume_controls</identifier>
-    <autogen>__KeyToKey__ KeyCode::F1, ConsumerKeyCode::VOLUME_MUTE</autogen>
-    <autogen>__KeyToKey__ KeyCode::F2, ConsumerKeyCode::VOLUME_DOWN</autogen>
-    <autogen>__KeyToKey__ KeyCode::F3, ConsumerKeyCode::VOLUME_UP</autogen>
-  </item>
-  <item>
-    <name>Use Command+Option+R to Rename</name>
-    <appendix>(Change Command+Option+R to Return)</appendix>
-    <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
-    <only>FINDER</only>
-    <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
-  </item>
-  <item>
-    <!-- https://github.com/pauloconnor/das_keyboard -->
-    <name>Fix Media Keys for Das Keyboard 4</name>
-    <appendix>Let the media keys of Das Keyboard 4 work with Spotify and Co.</appendix>
-    <appendix>(Fn+F5 to Music Prev)</appendix>
-    <appendix>(Fn+F7 to Music Next)</appendix>
-    <identifier>dk4_media</identifier>
-    <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0012, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_PREV</autogen>
-    <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0011, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    <name>Das Keyboard 4</name>
+    <item>
+      <!-- https://github.com/pauloconnor/das_keyboard -->
+      <name>Fix Media Keys</name>
+      <appendix>Let Music Prev/Next media keys work with Spotify and Co.</appendix>
+      <appendix>(Fn+F5 to Music Prev)</appendix>
+      <appendix>(Fn+F7 to Music Next)</appendix>
+      <identifier>dk4.media_keys</identifier>
+      <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0012, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_PREV</autogen>
+      <autogen>__KeyToKey__ ConsumerKeyCode::RawValue::0x0011, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    </item>
   </item>
 </root>

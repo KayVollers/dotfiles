@@ -8,8 +8,8 @@
   co = checkout
   cob = checkout -b
   ci = commit
+  cl = clone --recursive
   clean = clean -f -d
-  clone = clone --recursive
   d = diff
   dc = svn dcommit
   desc = describe

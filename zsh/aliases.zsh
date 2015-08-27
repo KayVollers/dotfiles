@@ -26,6 +26,7 @@ alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias diskusage='ncdu'
 alias rf='rm -rf'
 alias tree='tree -N --dirsfirst' # support unicode characters
+alias dm='boot2docker' # TODO change to docker-machine if stable
 
 # When using sudo, use alias expansion (otherwise sudo ignores your aliases)
 alias sudo='sudo '

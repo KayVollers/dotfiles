@@ -12,7 +12,6 @@ export PATH=/usr/local/opt/gnu-sed/libexec/gnubin:$PATH # gnu sed
 
 
 export PATH=$HOME/.bin:$PATH # add user binaries to path
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin # fix latex for El Capitan
 
 # man pages

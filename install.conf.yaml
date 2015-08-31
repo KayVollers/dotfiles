@@ -69,6 +69,7 @@
       stdin: true
     # karabiner settings
     - [sh karabiner/karabiner-settings.sh, Restoring Karabiner settings]
+    - [sh seil/seil-settings.sh], Mapping Caps Lock to F19]
     # osx hacks
     - description: "OS X hacks"
       command: "sh osx/hacks.sh"

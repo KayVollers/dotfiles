@@ -4,47 +4,47 @@ source "${HOME}/.dotfiles/submodules/zgen/zgen.zsh"
 # check if there's no init script
 # zgen configuration
 if ! zgen saved; then
-    echo "Creating a zgen save"
+  echo "Creating a zgen save"
 
-    zgen oh-my-zsh
+  zgen oh-my-zsh
 
-    # plugins
-    zgen oh-my-zsh plugins/brew
-    zgen oh-my-zsh plugins/colored-man
-    zgen oh-my-zsh plugins/command-not-found
-    zgen oh-my-zsh plugins/docker
-    zgen oh-my-zsh plugins/fasd
-    zgen oh-my-zsh plugins/git
-    zgen oh-my-zsh plugins/git-extras
-    zgen oh-my-zsh plugins/gpg-agent
-    zgen oh-my-zsh plugins/gradle
-    zgen oh-my-zsh plugins/mvn
-    zgen oh-my-zsh plugins/osx
-    zgen oh-my-zsh plugins/pip
-    zgen oh-my-zsh plugins/ssh-agent
-    zgen oh-my-zsh plugins/sublime
-    zgen oh-my-zsh plugins/sudo
-    zgen oh-my-zsh plugins/web-search
+  # plugins
+  zgen oh-my-zsh plugins/brew
+  zgen oh-my-zsh plugins/colored-man
+  zgen oh-my-zsh plugins/command-not-found
+  zgen oh-my-zsh plugins/docker
+  zgen oh-my-zsh plugins/fasd
+  zgen oh-my-zsh plugins/git
+  zgen oh-my-zsh plugins/git-extras
+  zgen oh-my-zsh plugins/gpg-agent
+  zgen oh-my-zsh plugins/gradle
+  zgen oh-my-zsh plugins/mvn
+  zgen oh-my-zsh plugins/osx
+  zgen oh-my-zsh plugins/pip
+  zgen oh-my-zsh plugins/ssh-agent
+  zgen oh-my-zsh plugins/sublime
+  zgen oh-my-zsh plugins/sudo
+  zgen oh-my-zsh plugins/web-search
 
-    # bundles from other repos
-    # If zsh-syntax-highlighting is bundled after zsh-history-substring-search,
-    # they break, so get the order right.
-    zgen load zsh-users/zsh-syntax-highlighting
-    zgen load zsh-users/zsh-history-substring-search
-    zgen load unixorn/autoupdate-zgen # zgen automatic updates
-    zgen load Tarrasch/zsh-bd # quickly go back to a specific parent directory using 'bd'
-    zgen load zsh-users/zsh-completions src
-    #zgen load chriskempson/base16-shell base16-eighties.dark.sh # needed for powerline
-    zgen load RobSis/zsh-completion-generator # completion for commands with getopts style help
-    zgen load xr09/rainbow.sh rainbow.sh # simple colors for shell scripts
-    #zgen load depressiveRobot/stash-aware # show message if stashes for current branch
-    zgen load t413/zsh-background-notify # background notifications for long running commands
+  # bundles from other repos
+  # If zsh-syntax-highlighting is bundled after zsh-history-substring-search,
+  # they break, so get the order right.
+  zgen load zsh-users/zsh-syntax-highlighting
+  zgen load zsh-users/zsh-history-substring-search
+  zgen load unixorn/autoupdate-zgen # zgen automatic updates
+  zgen load Tarrasch/zsh-bd # quickly go back to a specific parent directory using 'bd'
+  zgen load zsh-users/zsh-completions src
+  #zgen load chriskempson/base16-shell base16-eighties.dark.sh # needed for powerline
+  zgen load RobSis/zsh-completion-generator # completion for commands with getopts style help
+  zgen load xr09/rainbow.sh rainbow.sh # simple colors for shell scripts
+  #zgen load depressiveRobot/stash-aware # show message if stashes for current branch
+  zgen load t413/zsh-background-notify # background notifications for long running commands
 
-    # theme
-    zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train.zsh-theme
+  # theme
+  zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train.zsh-theme
 
-    # save all to init script
-    zgen save
+  # save all to init script
+  zgen save
 fi
 
 # Load all files from .dotfiles/zsh/ directory
@@ -54,4 +54,5 @@ if [ -d $HOME/.dotfiles/zsh ]; then
   done
 fi
 
+# iterm2 shell integration
 source $HOME/.iterm2_shell_integration.zsh

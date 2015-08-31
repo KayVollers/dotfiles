@@ -8,6 +8,7 @@ Only compatible with OS X.
 
 * [Sublime Text 3](http://www.sublimetext.com/3): commandline symlink creation
 * [Karabiner](https://pqrs.org/osx/karabiner/): settings restoration
+* [Seil](https://pqrs.org/osx/karabiner/seil.html.en): settings restoration
 
 ## Installation
 
@@ -15,6 +16,12 @@ Only compatible with OS X.
     cd ~/.dotfiles
     sh install.sh
 
+## Settings overview
+
+*TODO*
+
 ## TODOs
 
 * vim config
+* tmux config
+* support for secrets in global `gradle.properties`

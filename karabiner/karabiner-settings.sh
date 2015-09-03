@@ -6,6 +6,7 @@ $cli set remap.app_finder_return2commandO 1
 $cli set repeat.initial_wait 300
 $cli set remap.pclikepageupdown_except_emacs 1
 $cli set remap.pclikehomeend 1
+$cli set remap.pc_printscreen_scrolllock_pause_to_volume_controls 1
 $cli set repeat.wait 33
 $cli set remap.app_finder_forwarddelete2commandLdelete 1
 $cli set dk4_media 1

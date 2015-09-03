@@ -100,3 +100,18 @@ docker() {
     /usr/local/bin/docker $@
   fi
 }
+
+# toggle between solarized variants in iterm
+toggle_solarized() {
+
+  echo $ITERM_PROFILE | grep "(light)" -q
+  if [ $? -eq 0 ]; then
+    ITERM_PROFILE=${ITERM_PROFILE/ \(light\)/}
+  else
+    ITERM_PROFILE="${ITERM_PROFILE} (light)"
+  fi
+
+  export ITERM_PROFILE
+  echo -e "\033]50;SetProfile=${ITERM_PROFILE}\a"
+
+}

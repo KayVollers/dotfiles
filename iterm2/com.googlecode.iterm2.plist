@@ -726,13 +726,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>835 110 445 103 0 0 1280 777 </string>
+	<string>1029 37 445 77 0 0 1920 1080 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>354 589 606 456 0 0 1920 1057 </string>
+	<string>327 618 606 456 0 0 1920 1080 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 499 620 392 0 0 1920 1057 </string>
+	<string>650 517 620 392 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 650 732 0 0 1920 1057 </string>
+	<string>0 4 650 733 0 0 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>574 69 650 732 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_233D4A19-1026-4CEE-A336-F7238DFA2880</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_96871FA1-DB08-43C3-9157-9A68D6A45AF8</key>
@@ -1012,7 +1014,7 @@
 			<key>Hide After Opening</key>
 			<false/>
 			<key>Horizontal Spacing</key>
-			<real>1</real>
+			<real>0.99189923757530118</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
@@ -1319,9 +1321,9 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -1465,7 +1467,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2067,9 +2069,9 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -2213,7 +2215,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2421,9 +2423,9 @@
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
-			<false/>
+			<true/>
 			<key>Blur Radius</key>
-			<real>15</real>
+			<real>26.921123798076923</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2809,13 +2811,13 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>36</integer>
+			<integer>42</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -2948,6 +2950,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 			</array>
+			<key>Space</key>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -2955,11 +2959,11 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.087932230029585806</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -3167,9 +3171,9 @@
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
-			<false/>
+			<true/>
 			<key>Blur Radius</key>
-			<real>15</real>
+			<real>26.897385817307697</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -3557,13 +3561,13 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>36</integer>
+			<integer>42</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -3696,6 +3700,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 			</array>
+			<key>Space</key>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -3703,11 +3709,11 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.08838988535502959</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -4309,9 +4315,9 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -4455,7 +4461,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -5059,9 +5065,9 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>100000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -5205,7 +5211,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -5236,6 +5242,8 @@
 	<integer>0</integer>
 	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
 	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>464543865.70054901</real>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
 	<key>OnlyWhenMoreTabs</key>
@@ -5310,7 +5318,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-09-03T11:01:35Z</date>
+	<date>2015-09-27T07:19:42Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -5330,7 +5338,7 @@
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
 	<key>TabStyle</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>1</integer>
 	<key>ThreeFingerEmulates</key>
@@ -5367,7 +5375,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150826-nightly</string>
+	<string>2.9.20150921-nightly</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>

@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -13,6 +14,7 @@
 		"FileSystem Autocompletion",
 		"FullScreenStatus",
 		"Git Commit Message Syntax",
+		"GitGutter",
 		"HaoGist",
 		"LaTeX-cwl",
 		"LaTeXing",
@@ -20,6 +22,7 @@
 		"Markdown Extended",
 		"Material Theme",
 		"Materialize",
+		"Non Text Files",
 		"Open URL",
 		"Package Control",
 		"RAML Syntax Highlighter",

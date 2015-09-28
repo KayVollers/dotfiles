@@ -87,3 +87,5 @@
 	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
 [rerere]
 	enabled = true
+[git-up "fetch"]
+	all = true

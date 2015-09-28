@@ -38,6 +38,7 @@
     - [brew install git, Installing git]
     - [brew install git-flow, Installing git-flow]
     - [brew install tig, Installing tig]
+    - [gem install git-up, Installing git-up]
     # ack
     - [brew install ack, Installing ack]
     # ncdu

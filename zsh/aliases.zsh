@@ -21,12 +21,12 @@ alias s='subl && subl' # fix empty window if sublime was not running before open
 alias t='tree'
 alias v='vim'
 alias d='docker'
+alias dm='docker-machine'
 alias rdf='rdf'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias diskusage='ncdu'
 alias rf='rm -rf'
 alias tree='tree -N --dirsfirst' # support unicode characters
-alias dm='boot2docker' # TODO change to docker-machine if stable
 
 # When using sudo, use alias expansion (otherwise sudo ignores your aliases)
 alias sudo='sudo '

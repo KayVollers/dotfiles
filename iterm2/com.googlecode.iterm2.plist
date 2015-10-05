@@ -556,7 +556,7 @@
 	<key>Default Arrangement Name</key>
 	<string>Quake terminal</string>
 	<key>Default Bookmark Guid</key>
-	<string>233D4A19-1026-4CEE-A336-F7238DFA2880</string>
+	<string>96871FA1-DB08-43C3-9157-9A68D6A45AF8</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
@@ -728,11 +728,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1029 37 445 77 0 0 1920 1080 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>327 618 606 456 0 0 1920 1080 </string>
+	<string>327 624 606 456 0 0 1920 1080 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 517 620 392 0 0 1920 1080 </string>
+	<string>650 517 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 650 733 0 0 1920 1057 </string>
+	<string>0 20 1914 1037 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>574 69 650 732 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_233D4A19-1026-4CEE-A336-F7238DFA2880</key>
@@ -5318,7 +5318,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-09-27T07:19:42Z</date>
+	<date>2015-10-01T08:00:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -5338,7 +5338,7 @@
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
 	<key>TabStyle</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>1</integer>
 	<key>ThreeFingerEmulates</key>
@@ -5375,7 +5375,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150921-nightly</string>
+	<string>2.9.20150923-nightly</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>

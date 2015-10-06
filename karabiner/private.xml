@@ -25,10 +25,16 @@
     <item>
       <name>Use Command+Option+R to Rename</name>
       <appendix>(Change Command+Option+R to Return)</appendix>
-      <identifier>remap.app_finder_cmd_opt_r_to_return</identifier>
+      <identifier>private.app_finder_cmd_opt_r_to_return</identifier>
       <only>FINDER</only>
       <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L, Option::NOREPEAT, KeyCode::RETURN</autogen>
     </item>
+    <item>
+        <name>Doubletap F19</name>
+        <appendix>Tap F19 twice to activate</appendix>
+        <identifier>private.doubletapf19</identifier>
+        <autogen>__DoublePressModifier__ KeyCode::F19, KeyCode::VK_NONE, KeyCode::F19</autogen>
+      </item>
   </item>
   <item>
     <name>Das Keyboard 4</name>

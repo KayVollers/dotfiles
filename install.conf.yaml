@@ -9,7 +9,7 @@
     - [mkdir -p ~/.bin, Creating .bin directory]
     - [mkdir -p ~/.gradle, Creating .gradle directory]
     - [mkdir -p ~/Library/Application\ Support/Karabiner/, Creating Karabiner settings directory]
-    - [mkdir -p ~/Library/Application Support/Sublime Text 3/Packages/, Creating Sublime Text 3 settings directory]
+    - [mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/, Creating Sublime Text 3 settings directory]
     # keyboard layout
     - [cp keylayout/U.S.\ International\ wo\ dead\ keys.* ~/Library/Keyboard\ Layouts/, Installing US International keyboard layout]
     # fonts
@@ -70,7 +70,7 @@
       stdin: true
     # karabiner settings
     - [sh karabiner/karabiner-settings.sh, Restoring Karabiner settings]
-    - [sh seil/seil-settings.sh], Mapping Caps Lock to F19]
+    - [sh seil/seil-settings.sh, Mapping Caps Lock to F19]
     # osx hacks
     - description: "OS X hacks"
       command: "sh osx/hacks.sh"

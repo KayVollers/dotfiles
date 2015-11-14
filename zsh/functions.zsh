@@ -101,6 +101,16 @@ docker() {
   fi
 }
 
+docker-machine() {
+  if command -v "docker-machine-$1" > /dev/null 2>&1; then
+    subcommand=$1
+    shift
+    docker-machine-$subcommand $@
+  else
+    /usr/local/bin/docker-machine $@
+  fi
+}
+
 # toggle between solarized variants in iterm
 toggle_solarized() {
 

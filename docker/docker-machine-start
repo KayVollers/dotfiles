@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Starting docker machine '${DOCKER_MACHINE_NAME}'..."
+docker-machine start ${DOCKER_MACHINE_NAME}

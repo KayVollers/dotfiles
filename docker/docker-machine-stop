@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Stopping docker machine '${DOCKER_MACHINE_NAME}'..."
+docker-machine stop ${DOCKER_MACHINE_NAME}

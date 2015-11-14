@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+echo "Stopping docker machine '${DOCKER_MACHINE_NAME}'..."
+docker-machine stop ${DOCKER_MACHINE_NAME}
+
+echo "Starting docker machine '${DOCKER_MACHINE_NAME}'..."
+docker-machine start ${DOCKER_MACHINE_NAME}

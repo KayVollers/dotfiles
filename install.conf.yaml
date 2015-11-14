@@ -103,6 +103,10 @@
     ~/.bin/docker-psa: docker/docker-psa
     ~/.bin/docker-rma: docker/docker-rma
     ~/.bin/docker-rmf: docker/docker-rmf
+    ~/.bin/docker-machine-start: docker/docker-machine-start
+    ~/.bin/docker-machine-stop: docker/docker-machine-stop
+    ~/.bin/docker-machine-restart: docker/docker-machine-restart
+    ~/.bin/docker-machine-ssh: docker/docker-machine-ssh
     # gradle
     ~/.gradle/gradle.properties: gradle/gradle.properties
     # karabiner

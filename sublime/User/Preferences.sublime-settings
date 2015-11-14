@@ -13,7 +13,9 @@
 		"plugin",
 		"plugins",
 		"subprojects",
-		"Gradle"
+		"Gradle",
+		"gradle",
+		"reified"
 	],
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
@@ -50,8 +52,8 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintageous",
-		"Vintage"
+		"Vintage",
+		"Vintageous"
 	],
 	"indent_guide_options":
 	[

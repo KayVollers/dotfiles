@@ -22,10 +22,3 @@ zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # Increase the number of errors based on the length of the typed word.
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=($((($#PREFIX+$#SUFFIX)/3))numeric)'
-
-# runs ls after chpwd
-list_all() {
-    emulate -L zsh
-    ls
-}
-chpwd_functions=(${chpwd_functions[@]} "list_all")

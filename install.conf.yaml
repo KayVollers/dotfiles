@@ -52,9 +52,7 @@
     # rdf.sh
     - ["brew install https://raw.githubusercontent.com/seebi/rdf.sh/master/brew/rdf.sh.rb", Installing rdf.sh]
     - [pip install Pygments, Installing Pygments]
-    - description: "Installing n3pygments"
-      command: "sh rdf.sh/install_n3pygments.sh"
-      stdin: true
+    - [pip install semantic_web_pygments, Installing Semantic Web lexers]
     # raptor
     - [brew install raptor, Installing raptor]
     # jq

@@ -2,7 +2,7 @@
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # add new line before prompt
-#precmd() { print "" }
+precmd() { print "" }
 
 # takes an input command name and checks for availability with which
 # credits: https://github.com/seebi/rdf.sh/blob/master/rdfw

@@ -41,7 +41,7 @@ if ! zgen saved; then
   zgen load t413/zsh-background-notify # background notifications for long running commands
 
   # theme
-  zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train.zsh-theme
+  zgen load bhilburn/powerlevel9k powerlevel9k.zsh-theme
 
   # save all to init script
   zgen save

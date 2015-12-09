@@ -44,6 +44,15 @@
     ],
 
     /*
+     * Additional Build Arguments
+     *
+     * Provide additional build arguments for latexmk, e.g. -shell-escape
+     *
+     */
+
+    "build_arguments": ["-shell-escape"],
+
+    /*
      * Path
      *
      * Adjust the path where executable programs are located. For example for

@@ -15,7 +15,10 @@
 		"subprojects",
 		"Gradle",
 		"gradle",
-		"reified"
+		"reified",
+		"existentiality",
+		"namespaces",
+		"skolemization"
 	],
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
@@ -59,6 +62,11 @@
 	[
 		"draw_normal",
 		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.pdfsync",
+		"*.log"
 	],
 	"line_padding_bottom": 1.2,
 	"line_padding_top": 1.2,

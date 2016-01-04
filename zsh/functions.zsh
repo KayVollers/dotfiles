@@ -54,40 +54,6 @@ function md() {
   subl && open -a Sublime\ Text $*
 }
 
-# email prompt for new git repositories
-function git() {
-
-  for i do
-        lastArgument=$i # last argument can be the directory or the repository url
-  done
-
-  /usr/local/bin/git $@
-
-  if [[ $? -eq 0 ]] # only show prompt if git command was successful
-  then
-    if [[ "$1" = "init" || "$1" = "clone" ]]
-    then
-      if [[ -d "$lastArgument" ]]
-      then
-        # it was the directory argument, cd it
-        cd $lastArgument
-      else
-        if [[ "$1" = "clone" ]]
-        then
-          # no directory given, parse it from repository url
-          cd $(echo $lastArgument | awk -F/ '{ print $NF }' | rev | sed 's/tig.//' | rev)
-        else if [[ "$1" = "init" && "$lastArgument" = "--bare" ]]
-          return 0
-        fi
-      fi
-      git-mail
-    fi
-  else
-    # return the exit code of the failed git command call
-    return $?
-  fi
-}
-
 # http://lucapette.me/docker/a-couple-of-useful-aliases-for-docker/
 # to add a custom docker command, make an executable named "docker-COMMAND" available in your path
 # example: add docker-psa to your path to have the command "docker psa"

@@ -18,7 +18,11 @@
 		"reified",
 		"existentiality",
 		"namespaces",
-		"skolemization"
+		"skolemization",
+		"middleware",
+		"uninstall",
+		"Skolemizing",
+		"skolemizing"
 	],
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":

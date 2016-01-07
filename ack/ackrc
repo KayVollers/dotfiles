@@ -5,3 +5,6 @@
 --type-set=rdf:ext:rdf,ttl,n3,nt,owl,trig,trix,graph
 --type-set=sparql:ext:rq,ru,srj,srx
 --type-set=gradle:ext:gradle
+--type-set=raml:ext:raml
+--type-set=md:ext:md,mdown,markdown
+--type-set=yml:ext:yml,yaml

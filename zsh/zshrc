@@ -56,3 +56,6 @@ fi
 
 # iterm2 shell integration
 source $HOME/.iterm2_shell_integration.zsh
+
+# fix fasd aliases and autocompletion (https://github.com/robbyrussell/oh-my-zsh/issues/4236)
+source $HOME/.zgen/robbyrussell/oh-my-zsh-master/plugins/fasd/fasd.plugin.zsh

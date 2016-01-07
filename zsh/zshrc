@@ -47,6 +47,9 @@ if ! zgen saved; then
   zgen save
 fi
 
+# fix fasd aliases and autocompletion (https://github.com/robbyrussell/oh-my-zsh/issues/4236)
+source $HOME/.zgen/robbyrussell/oh-my-zsh-master/plugins/fasd/fasd.plugin.zsh
+
 # Load all files from .dotfiles/zsh/ directory
 if [ -d $HOME/.dotfiles/zsh ]; then
   for file in $HOME/.dotfiles/zsh/*.zsh; do
@@ -56,6 +59,3 @@ fi
 
 # iterm2 shell integration
 source $HOME/.iterm2_shell_integration.zsh
-
-# fix fasd aliases and autocompletion (https://github.com/robbyrussell/oh-my-zsh/issues/4236)
-source $HOME/.zgen/robbyrussell/oh-my-zsh-master/plugins/fasd/fasd.plugin.zsh

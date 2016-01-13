@@ -58,4 +58,6 @@ if [ -d $HOME/.dotfiles/zsh ]; then
 fi
 
 # iterm2 shell integration
-source $HOME/.iterm2_shell_integration.zsh
+if [ -f $HOME/.iterm2_shell_integration.zsh ]; then
+  source $HOME/.iterm2_shell_integration.zsh
+fi

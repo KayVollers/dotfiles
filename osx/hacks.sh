@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set computer name
-COMPUTER_NAME=MacGyver
+COMPUTER_NAME=KaynPlan
 sudo scutil --set ComputerName $COMPUTER_NAME
 sudo scutil --set HostName $COMPUTER_NAME
 sudo scutil --set LocalHostName $COMPUTER_NAME

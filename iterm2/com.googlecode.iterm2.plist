@@ -1487,7 +1487,7 @@
 			<key>Window Type</key>
 			<integer>1</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -2235,7 +2235,7 @@
 			<key>Window Type</key>
 			<integer>1</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -2983,7 +2983,7 @@
 			<key>Window Type</key>
 			<integer>2</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -3733,7 +3733,7 @@
 			<key>Window Type</key>
 			<integer>2</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -4483,7 +4483,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -5233,7 +5233,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/marvin</string>
+			<string>/Users/kayvollers</string>
 		</dict>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
@@ -5302,7 +5302,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/Marvin/.dotfiles/iterm2</string>
+	<string>/Users/kayvollers/.dotfiles/iterm2</string>
 	<key>PromptOnClose</key>
 	<false/>
 	<key>PromptOnQuit</key>

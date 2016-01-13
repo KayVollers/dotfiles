@@ -4,7 +4,7 @@
 # to configure for current git repository
 
 # set your available emails
-MAILS=(marvin.frommhold@eccenca.com mfrommhold@brox.de frommhold@informatik.uni-leipzig.de depressiveRobot@users.noreply.github.com)
+MAILS=(kay.vollersd@eccenca.com kvollers@brox.de KayVollers@users.noreply.github.com)
 
 # prompt for email
 echo

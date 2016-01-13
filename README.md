@@ -1,4 +1,4 @@
-# Kays's dotfiles
+# Kay's dotfiles
 
 Personal dotfiles bootstraped using [dotbot](https://github.com/anishathalye/dotbot).
 
